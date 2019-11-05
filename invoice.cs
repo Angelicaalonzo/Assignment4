@@ -8,9 +8,9 @@ class Invoice
     string nvDate;
     float total;
     
-    List<invoiceEntry> LineItems = new List<invoiceEntry>;
+    List<invoiceEntry> LineItems = new List<invoiceEntry>();
 
-    
+
 
 
     public Invoice()
