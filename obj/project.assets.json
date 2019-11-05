@@ -686,28 +686,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/angelicaalonzo/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\zmcgu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/angelicaalonzo/Desktop/GroupAssignment2/GroupAssignment2.csproj",
+      "projectUniqueName": "c:\\Users\\zmcgu\\Documents\\2019_ClassesWT_Sem2\\Object Oriented Design\\Homework\\HW4_invoicing\\Assignment4\\GroupAssignment2.csproj",
       "projectName": "GroupAssignment2",
-      "projectPath": "/Users/angelicaalonzo/Desktop/GroupAssignment2/GroupAssignment2.csproj",
-      "packagesPath": "/Users/angelicaalonzo/.nuget/packages/",
-      "outputPath": "/Users/angelicaalonzo/Desktop/GroupAssignment2/obj/",
+      "projectPath": "c:\\Users\\zmcgu\\Documents\\2019_ClassesWT_Sem2\\Object Oriented Design\\Homework\\HW4_invoicing\\Assignment4\\GroupAssignment2.csproj",
+      "packagesPath": "C:\\Users\\zmcgu\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\zmcgu\\Documents\\2019_ClassesWT_Sem2\\Object Oriented Design\\Homework\\HW4_invoicing\\Assignment4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/angelicaalonzo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\zmcgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
