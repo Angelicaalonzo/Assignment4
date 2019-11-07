@@ -80,7 +80,7 @@ class Invoice
     public void printInvoice()
     {
         Console.WriteLine("Invoice #: " + InvNum + "Date: "+ nvDate);
-        Console.WriteLine("{0,4} {1,6} {2,15} {3,6} {4,5}", "idx", "ID", "Item Descr", "U.Price", "Availble Qty" , "total");
+        Console.WriteLine("{0,4} {1,6} {2,15} {3,6} {4,5}", "Line #", "Ln", "Item", "Price", "Availble Qty" , "Total");
         Console.WriteLine("------    --------------- -------- ----------");
         foreach ( invoiceEntry e in LineItems)
         {
