@@ -4,7 +4,8 @@ using System.Collections.Generic;
 class invoiceEntry{
     int lineNum;
     int quantity;
-    public void invoice(int l, int q){
+    
+    public invoiceEntry(int l, int q){
         lineNum = l; 
         quantity = q;
     } 

@@ -33,6 +33,7 @@ class Item
 
     public void updtAvlblQnty(float Qup)
     {
+       Console.WriteLine("The current available amount amount of " + Description + " is " + AvailableQty);
         AvailableQty += Qup;
         Console.WriteLine("New Quantity is: " + AvailableQty);
     }
@@ -44,9 +45,11 @@ class Item
 
     public void displayItem()
     {
-        getItemID();
-        getItemDescription();
-        getPrice();
-        getAvlblQnty();
+
+        Console.WriteLine( ID + " " + Description + " " + AvailableQty + " " +  UnitPrice);
+        // getItemID();
+        // getItemDescription();
+        // getPrice();
+        // getAvlblQnty();
     }
 }
