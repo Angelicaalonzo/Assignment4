@@ -80,13 +80,13 @@ class Invoice
     public void printInvoice()
     {
         Console.WriteLine("Invoice #: " + InvNum + "Date: "+ nvDate);
-        Console.WriteLine("{0,4} {1,6} {2,15} {3,6} {4,5}", "idx", "ID", "Item Descr", "U.Price", "Availble Qty" );
+        Console.WriteLine("{0,4} {1,6} {2,15} {3,6} {4,5}", "idx", "ID", "Item Descr", "U.Price", "Availble Qty" , "total");
         Console.WriteLine("------    --------------- -------- ----------");
         foreach ( invoiceEntry e in LineItems)
         {
             float linetotal = 0;
             linetotal = e.GetItem().getPrice() * e.getQuantity();
-            Console.WriteLine(e.getLineNumber() + "/t" + e.GetItem().getItemID() +  "/t" + e.GetItem().getItemDescription() +  "/t"   + e.GetItem().getPrice() + "/t"  + e.GetItem().getPrice() + e.getQuantity() +  "/t" + linetotal );
+            Console.WriteLine(e.getLineNumber() + "\t" + e.GetItem().getItemID() +  "\t" + e.GetItem().getItemDescription() +  "\t"   + e.GetItem().getPrice() + "\t"  + e.GetItem().getPrice() + e.getQuantity() +  "\t" + linetotal );
         }
         
         
