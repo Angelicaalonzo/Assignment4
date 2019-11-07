@@ -86,7 +86,7 @@ class Invoice
         {
             float linetotal = 0;
             linetotal = e.GetItem().getPrice() * e.getQuantity();
-            Console.WriteLine(e.getLineNumber() + "\t" + e.GetItem().getItemID() +  "\t" + e.GetItem().getItemDescription() +  "\t"   + e.GetItem().getPrice() + "\t"  + e.GetItem().getPrice() + e.getQuantity() +  "\t" + linetotal );
+            Console.WriteLine(e.getLineNumber() + "\t" + e.GetItem().getItemID() +  "\t" + e.GetItem().getItemDescription() +  "\t"   + e.GetItem().getPrice() + "\t"  + e.getQuantity() +  "\t" + linetotal );
         }
         
         
