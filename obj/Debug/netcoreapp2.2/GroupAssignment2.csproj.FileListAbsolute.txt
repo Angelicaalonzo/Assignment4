@@ -1,0 +1,11 @@
+U:\CIDM4360\Assignment4\bin\Debug\netcoreapp2.2\GroupAssignment2.deps.json
+U:\CIDM4360\Assignment4\bin\Debug\netcoreapp2.2\GroupAssignment2.runtimeconfig.json
+U:\CIDM4360\Assignment4\bin\Debug\netcoreapp2.2\GroupAssignment2.runtimeconfig.dev.json
+U:\CIDM4360\Assignment4\bin\Debug\netcoreapp2.2\GroupAssignment2.dll
+U:\CIDM4360\Assignment4\bin\Debug\netcoreapp2.2\GroupAssignment2.pdb
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.csprojAssemblyReference.cache
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.csproj.CoreCompileInputs.cache
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.AssemblyInfoInputs.cache
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.AssemblyInfo.cs
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.dll
+U:\CIDM4360\Assignment4\obj\Debug\netcoreapp2.2\GroupAssignment2.pdb

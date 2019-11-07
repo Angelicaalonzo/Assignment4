@@ -4,10 +4,13 @@ using System.Collections.Generic;
 class invoiceEntry{
     int lineNum;
     int quantity;
-    
-    public invoiceEntry(int l, int q){
+    Item AddedItem;
+
+    public invoiceEntry(int l, int q, Item i)
+    {
         lineNum = l; 
         quantity = q;
+        AddedItem = i;
     } 
     public int getLineNumber(){
         return lineNum;
@@ -18,5 +21,11 @@ class invoiceEntry{
     public int getQuantity(){
         return quantity;
     }
+    public Item GetItem()
+    {
+        return AddedItem;
+    }
+
+
 
 }

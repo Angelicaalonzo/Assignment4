@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "u:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj": {}
+    "U:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj": {}
   },
   "projects": {
-    "u:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj": {
+    "U:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "u:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj",
+        "projectUniqueName": "U:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj",
         "projectName": "GroupAssignment2",
-        "projectPath": "u:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj",
+        "projectPath": "U:\\CIDM4360\\Assignment4\\GroupAssignment2.csproj",
         "packagesPath": "C:\\Users\\aa1002122\\.nuget\\packages\\",
-        "outputPath": "u:\\CIDM4360\\Assignment4\\obj\\",
+        "outputPath": "U:\\CIDM4360\\Assignment4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

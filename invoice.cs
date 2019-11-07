@@ -23,7 +23,8 @@ class Invoice
             //upade available item quantity
             item.updtAvlblQnty(ReqQuantity*-1);
             //add a new invoice entry        //line number      //quantity added
-            invoiceEntry x = new invoiceEntry(LineItems.Count, ReqQuantity);            
+            invoiceEntry x = new invoiceEntry(LineItems.Count, ReqQuantity, item);
+            LineItems.Add(x);            
             return true;
         }
         //if there is not enough stock to fill the order do not allow it to be added to the invoice
@@ -57,8 +58,13 @@ class Invoice
     }
     public void updateTotal(float t)
     {
-        t = total;
-
+        t += total;
+        /*
+        foreach(invoiceEntry e in LineItems)
+        {
+            total += e.getQuantity() * e.GetItem().getPrice();
+        }
+        */
         
     }
     public void updateLineNumbers()
@@ -73,6 +79,16 @@ class Invoice
 
     public void printInvoice()
     {
+        Console.WriteLine("Invoice #: " + InvNum + "Date: "+ nvDate);
+        Console.WriteLine("{0,4} {1,6} {2,15} {3,6} {4,5}", "idx", "ID", "Item Descr", "U.Price", "Availble Qty" );
+        Console.WriteLine("------    --------------- -------- ----------");
+        foreach ( invoiceEntry e in LineItems)
+        {
+            float linetotal = 0;
+            linetotal = e.GetItem().getPrice() * e.getQuantity();
+            Console.WriteLine(e.getLineNumber() + "/t" + e.GetItem().getItemID() +  "/t" + e.GetItem().getItemDescription() +  "/t"   + e.GetItem().getPrice() + "/t"  + e.GetItem().getPrice() + e.getQuantity() +  "/t" + linetotal );
+        }
+        
         
     }
 
